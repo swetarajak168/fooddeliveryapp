@@ -1,0 +1,148 @@
+const MenuItems=[
+    {
+        id: 1,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake1.jpeg",
+    },
+    
+    {
+        id: 2,
+        itemId: "chocolate01",
+        name: "Chocolate",
+        description: "yummy",
+        imgSrc:"assets/chocolate1.jpeg",
+    },
+    
+    {
+        id: 3,
+        itemId: "cookie01",
+        name: "Cookie",
+        description: "yummy",
+        imgSrc:"assets/cookie.jpeg",
+    },
+    
+    {
+        id: 4,
+        itemId: "cupcake01",
+        name: "CupCake",
+        description: "yummy",
+        imgSrc:"assets/muffin4.jpeg",
+    },
+];
+const Items=[
+    {
+        id: 1,
+        itemId: "cake01",
+        name: "Cake",
+        description: "flavoury",
+        imgSrc:"assets/cake2.jpeg",
+    },
+    {
+        id: 2,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake3.jpeg",
+    },
+    {
+        id: 3,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake4.jpeg",
+    },
+    {
+        id: 4,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake5.jpeg",
+    },
+    {
+        id: 5,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake6.jpeg",
+    },
+    {
+        id: 6,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake7.jpeg",
+    },
+    {
+        id: 7,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake8.jpeg",
+    },
+    {
+        id: 8,
+        itemId: "cake01",
+        name: "Cake",
+        description: "yummy",
+        imgSrc:"assets/cake9.jpeg",
+    },
+    {
+        id: 9,
+        itemId: "chocolate01",
+        name: "Chocolate",
+        description: "yummy",
+        imgSrc:"assets/chocolate2.jpeg",
+    },
+    {
+        id: 10,
+        itemId: "cookie01",
+        name: "Cookie",
+        description: "yummy",
+        imgSrc:"assets/cookie1.jpeg",
+    },
+    {
+        id: 11,
+        itemId: "cookie01",
+        name: "Cookie",
+        description: "yummy",
+        imgSrc:"assets/cookie2.jpeg",
+    },
+    {
+        id: 12,
+        itemId: "cupcake01",
+        name: "CupCake",
+        description: "yummy",
+        imgSrc:"assets/cupcake.jpeg",
+    },
+    {
+        id: 13,
+        itemId: "cupcake01",
+        name: "CupCake",
+        description: "yummy",
+        imgSrc:"assets/cupcake1.jpeg",
+    },
+    {
+        id: 14,
+        itemId: "cupcake01",
+        name: "CupCake",
+        description: "yummy",
+        imgSrc:"assets/muffin1.jpeg",
+    },
+    {
+        id: 15,
+        itemId: "cupcake01",
+        name: "CupCake",
+        description: "yummy",
+        imgSrc:"assets/muffin2.jpeg",
+    },
+    {
+        id: 16,
+        itemId: "cupcake01",
+        name: "CupCake",
+        description: "yummy",
+        imgSrc:"assets/muffin3.jpeg",
+    },
+];
+export  {MenuItems, Items};
