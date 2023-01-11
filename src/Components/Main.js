@@ -64,7 +64,13 @@ function Main(){
                     
             </div>
          
-          <div className="rightMenu"></div>
+          <div className="rightMenu">
+            <div className="paymentcardContainer">
+                    <div className="paymentCard">
+                      
+                    </div>
+            </div>
+          </div>
         </>
      </main>
      </>
