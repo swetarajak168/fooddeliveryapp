@@ -26,7 +26,7 @@ function App() {
     }
 
     menuCard.forEach((n) => n.addEventListener("click", setMenuCardActive));
-  }, []);
+  }, [isMainData]);
   
   return (
     <>

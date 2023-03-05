@@ -22,7 +22,7 @@ function Header() {
         </div>
         <div className="profileContainer">
             <div className='imgBox'>
-                <img src="" alt=""/>
+                <img src="" alt="" className="profilePic"/>
             </div>
             <h2 className="userName">ldhv</h2>
         </div>

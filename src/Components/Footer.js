@@ -15,7 +15,7 @@ const Footer = () => {
     <div className='footerMenu'>
         <ul id="menu">
             {/* prettier ignore*/}
-            <MenuContainer link={'#'} icon={<HomeRounded/>}/>
+            <MenuContainer link={'#'} icon={<HomeRounded/>} isHome/>
             {/* prettier-ignore */}
           <MenuContainer link = {'#'} icon = {<Chat />}  />
           {/* prettier-ignore */}

@@ -67,8 +67,22 @@ function Main(){
           <div className="rightMenu">
             <div className="paymentcardContainer">
                     <div className="paymentCard">
-                      
+                        <Payment/>
                     </div>
+            </div>
+            <div className="cartCheckoutContainer">
+              <div className='cartContainer'>
+                <SubMenuContainer name={"Carts Items"}/>
+                <div className="cartItems">
+                    <CartItem name={" Cake"}
+                        imgsrc={'cake1.jpeg'}
+                        qty={1}
+                        price={'800'}
+                    />
+                </div>
+              
+              </div>
+                    
             </div>
           </div>
         </>

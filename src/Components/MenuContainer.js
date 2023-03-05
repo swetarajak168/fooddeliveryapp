@@ -1,8 +1,8 @@
 import React from 'react'
 import '../App.css';
-function Menucontainer({link, icon}) {
+function Menucontainer({link, icon, isHome}) {
   return (
-    <li>
+    <li className={isHome? `active` : ``} >
         <a href={link}>
             <span className='icon'>{icon}</span>
         </a>
