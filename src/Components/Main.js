@@ -82,7 +82,12 @@ function Main(){
                 </div>
               
               </div>
-                    
+              <div className="totalSection">
+                <h3>Total</h3>
+                <p>
+                  <span>$ </span> {total}
+                </p>
+              </div> 
             </div>
           </div>
         </>
