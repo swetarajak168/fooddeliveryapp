@@ -1,5 +1,8 @@
 import React from 'react'
 import {RemoveRounded, AddRounded} from "@mui/icons-material";
+import  { useEffect, useState } from "react";
+import { actionType } from "./Reducer";
+import { useStateValue } from "./StateProvider";
 const CartItem = (name, imgsrc,price) => {
   const [qty, setQty] = useState(1);
   const [itemPrice, setItemPrice] = useState(parseInt(qty) * parseFloat(price));

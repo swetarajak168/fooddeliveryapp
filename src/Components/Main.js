@@ -8,6 +8,7 @@ import FoodCard  from './FoodCard';
 import CartItem  from './CartItem';
 import SubMenuContainer from './SubMenuContainer';
 import { MenuItems, Items} from "./Data";
+import { useStateValue } from "./StateProvider";
 function Main(){
     const [isMainData, setMainData] =useState(
         Items.filter(element=> element.itemId ==="cake01")

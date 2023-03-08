@@ -1,8 +1,17 @@
 import React from 'react'
 import '../App.css';
 import { AddRounded} from "@mui/icons-material";
+import { actionType } from "./Reducer";
+import { useStateValue } from "./StateProvider";
+import { Items } from "./Data";
+import { useEffect } from "react";
+import { useState } from "react";
+let cartData = [];
 function FoodCard({imgSrc, name, description,itemId}) {
   const [isCart, setCart] = useState(null);
+  const [{}, dispatch] = useStateValue();
+  
+
   useEffect(() => {
     if (isCart) {
       cartData.push(isCart);
