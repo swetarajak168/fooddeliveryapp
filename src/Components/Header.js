@@ -2,8 +2,15 @@
 import '../App.css';
 import React from 'react';
 import {} from "@mui/material";
+import {  useEffect} from "react";
 import {SearchRounded, ShoppingCartRounded, BarChart} from "@mui/icons-material";
 function Header() {
+    useEffect(() => {
+        const toggleIcon = document.querySelector(".toggleMenu");
+        toggleIcon.addEventListener("click", () => {
+          document.querySelector(".rightMenu").classList.toggle("active");
+        });
+      }, []);
   return (
     <header>
         <img src = "assets/cake1.jpeg" 

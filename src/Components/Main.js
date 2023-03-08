@@ -2,15 +2,16 @@ import React from 'react'
 import '../App.css';
 import {  useState} from "react";
 import Banner from './Banner';
-
+import PaymentCard from './PaymentCard';
 import MenuCard  from './MenuCard';
 import FoodCard  from './FoodCard';
+import CartItem  from './CartItem';
 import SubMenuContainer from './SubMenuContainer';
 import { MenuItems, Items} from "./Data";
 function Main(){
     const [isMainData, setMainData] =useState(
         Items.filter(element=> element.itemId ==="cake01")
-      )
+      );
       const setData = (itemId) => {
         setMainData(Items.filter((element) => element.itemId === itemId));
       };
@@ -67,7 +68,7 @@ function Main(){
           <div className="rightMenu">
             <div className="paymentcardContainer">
                     <div className="paymentCard">
-                        <Payment/>
+                        <PaymentCard/>
                     </div>
             </div>
             <div className="cartCheckoutContainer">
@@ -85,9 +86,10 @@ function Main(){
               <div className="totalSection">
                 <h3>Total</h3>
                 <p>
-                  <span>$ </span> {total}
+                  <span>$ </span> 21
                 </p>
               </div> 
+              <button className="checkOut">Check Out</button>
             </div>
           </div>
         </>

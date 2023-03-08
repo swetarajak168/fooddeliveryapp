@@ -1,6 +1,6 @@
 import React from 'react'
-
-export const CartItem = (name, imgsrc,qty,price) => {
+import {RemoveRounded, AddRounded} from "@mui/icons-material";
+const CartItem = (name, imgsrc,qty,price) => {
   return (
     <div className='carditem'>
         <div className='imgBox'>
@@ -27,3 +27,4 @@ export const CartItem = (name, imgsrc,qty,price) => {
     </div>
   )
 }
+export default CartItem
